@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>mini-encuentro </title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e5e5f7;
+            opacity: 0.8;
+            background-image: radial-gradient(#45c4f7 0.5px, #e5e5f7 0.5px);
+            background-size: 10px 10px;
+        }
+
+        #poster {
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #8EC5FC;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            background-image: linear-gradient(233deg, #8EC5FC 0%, #E0C3FC 24%, #ffffff 49%, #ffffff 75%, #ffffff 100%);
+        }
+        
+
+
+
+
+
+        h1 {
+            color: #0073e6;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .event-details {
+            margin-top: 20px;
+        }
+
+        .speakers {
+            margin-top: 20px;
+        }
+
+        .speaker {
+            margin-bottom: 10px;
+        }
+
+        .talk-title {
+            color: #0073e6;
+        }
+
+        .institution-images {
+            margin-top: 20px;
+        }
+
+        .institution-images img {
+            margin-right: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #0073e6;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="poster">
+        <h1>mini-encuentro de Análisis Matemático </h1>
+        <h1>y temas relacionados</h1>
+        <div class="event-details">
+            <h2>Detalles del evento </h2>
+            <p>Fechas: noviembre 9 y 10, 2023</p>
+            <p>Sede: IIMAS, UNAM-CU </p>
+        </div>
+       <!--  <div class="speakers">
+            <h2></h2>
+            <div class="speaker">
+                <h3>Dr. Jane Smith</h3>
+                <p>Title: Professor of Science</p>
+                <p>Topic: "Advancements in Technology"</p>
+            </div>
+            <div class="speaker">
+                <h3>Prof. John Doe</h3>
+                <p>Title: Associate Dean</p>
+                <p>Topic: "Innovation in Education"</p>
+            </div>
+        </div>--> 
+        <div class="talks">
+            <h2>Charlas </h2>
+            <div class="talk">
+                <h3 class="talk-title">"Estados Gaussianos: enfoques analítico y combinatorio"</h3>
+                <p>Ponente: Roberto Quezada, UAM-I</p>
+            </div>
+            <div class="talk">
+                <h3 class="talk-title">" El problema polinomial de puntos de adherencia en espacios de Banach"</h3>
+                <p>Ponente: Sofía Ortega, UdeG </p>
+            </div>
+            <div class="talk">
+                <h3 class="talk-title">" Sobre la Universalidad de variables aleatorias: átomos en polinomios no conmutativos."</h3>
+                <p>Ponente: Octavio Arizmendi, CIMAT </p>
+            </div>
+            <div class="talk">
+                <h3 class="talk-title">" Noncommutative flow equivalence"</h3>
+                <p>Ponente: Benjamín Itza, UAEH </p>
+            </div>
+            <div class="talk">
+                <h3 class="talk-title">" Indirect Measurements and State Purification"</h3>
+                <p>Ponente: Miguel Ballesteros, IIMAS</p>
+            </div>
+            <div class="talk">
+                <h3 class="talk-title">" TBA"</h3>
+                <p>Ponente: Luis Silva, IIMAS </p>
+            </div>
+        </div>
+        
+
+        <!-- Table for Speaker Schedule -->
+        <table>
+            <tr>
+                <th>Horario </th>
+                <th>noviembre 9</th>
+                <th>noviembre 10</th>
+            </tr>
+            <tr>
+                <td>10:00-11:00 AM</td>
+                <td>Roberto Quezada </td>
+                <td>Benjamín Itza </td>
+            </tr>
+            <tr>
+                <td>11:00-11:30 AM</td>
+                <td>Café </td>
+                <td>Café </td>
+            </tr>
+            <tr>
+                <td>11:30-12:30 AM</td>
+                <td>Sofía Ortega </td>
+                <td>Miguel Ballesteros</td>
+            </tr>
+            <tr>
+                <td>12:30-2:00 PM</td>
+                <td>Comida </td>
+                <td>Comida </td>
+            </tr>
+            <tr>
+                <td>2:00-3:00 PM</td>
+                <td>Luis Silva </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>3:00-3:30 PM</td>
+                <td>Café </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>3:30-4:30 PM</td>
+                <td>Octavio Arizmendi </td>
+                <td> </td>
+            </tr>
+        </table>
+
+            <!-- Images of Institutions -->
+            <div class="institution-images">
+                <h3>Organizadores </h3>
+                <h4>
+                    Mario Díaz, IIMAS. 
+                </h4>
+                <h4>
+                    Octavio Arizmendi, CIMAT.
+                </h4>
+                <h4> 
+                    Francisco Torres, UNAM-FC.
+                </h4>
+                <!-- <img src="unam.jpg" alt="UNAM" width="150" height="100">
+                <img src="cimat.jpg" alt="CIMAT" width="150" height="100">
+                <img src="university_of_sinaloa.jpg" alt="University of Sinaloa" width="150" height="100">-->
+            </div>
+    </div>
+
+    
+</body>
+</html>
